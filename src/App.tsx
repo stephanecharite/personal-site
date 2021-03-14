@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+import Contact from './component/Contact';
+import Resume from './component/Resume';
+import Home from './component/Home';
 import {
     BrowserRouter as Router,
     Switch,
@@ -42,19 +45,6 @@ function App() {
       </div>
     </Router>
   );
-}
-
-function Home() {
-  // Contain list of cards
-  return <h2>Home</h2>;
-}
-
-function Resume() {
-  return <h2>Resume</h2>;
-}
-
-function Contact() {
-  return <h2>Contact</h2>;
 }
 
 export default App;
