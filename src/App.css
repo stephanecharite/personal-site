@@ -1,5 +1,27 @@
-.App {
+body {background-color: #faf2fd;}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  padding: 20px 0px 0px 40px;
+  
+}
+
+nav li a {
+  display: block;
+  color: black;
   text-align: center;
+  text-decoration: none;
+}
+
+nav li Link:hover {
+  background-color: #111;
 }
 
 .App-logo {
