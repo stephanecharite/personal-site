@@ -34,16 +34,16 @@ const Card: FunctionComponent<{
     >
       <div className="flipper">
         <div className="front">
-          <h2 className="flip-container-header"> {title} </h2>
-          <p className="flip-container-description">{description}</p>
+          <h2 className="title"> {title} </h2>
+          <p className="description">{description}</p>
           <ul>
             <li>git hub link here</li>
             <li>demo link</li>
           </ul>
         </div>
         <div className="back">
-          <h2 className="flip-container-header">{title}</h2>
-          <p className="flip-container-description">{description}</p>
+          <h2 className="title ">{title}</h2>
+          <p className="description">{description}</p>
           <ul>
             <li>git hub link here</li>
             <li>demo link</li>
