@@ -42,3 +42,9 @@
 	color: black;
 	transform: rotateY(180deg);
 }
+
+@media screen and (max-width: 768px) {
+    .flip-container, .front, .back {
+	    height: 500px;
+    }
+}

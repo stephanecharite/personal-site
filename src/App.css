@@ -1,4 +1,7 @@
-body {background-color: #faf2fd;}
+body {
+  background-color: #faf2fd;
+  width: 100%;
+}
 
 nav ul {
   list-style-type: none;

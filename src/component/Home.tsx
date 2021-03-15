@@ -6,6 +6,7 @@ class Home extends React.Component {
   gridColumn = ["col1", "col2"];
 
   getClassName(index: number): string {
+      console.log(index % 2);
     return index % 2 == 0 ? this.gridColumn[0] : this.gridColumn[1];
   }
 
